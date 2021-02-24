@@ -17,7 +17,7 @@ for x in all_words:
         c[x] += 1
 
 print('\n词频统计结果：')
-for (k,v) in c.most_common(50):# 输出词频最高的前两个词
+for (k,v) in c.most_common(50):
     #print("%s:%d"%(k,v))
     comments = []
     comment = {}

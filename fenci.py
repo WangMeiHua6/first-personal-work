@@ -2,6 +2,7 @@ import jieba
 import re
 import json
 from collections import Counter
+
 cut_words=""
 for line in open('./comments.json',encoding='utf-8'):
     line.strip('\n')
